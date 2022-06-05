@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+
+    <title>Mortgage Quest</title>
+
+
+    <!-- Bootstrap  CSS File-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Theme CSS File-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Media CSS File-->
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+<body>
+
+    <main class="main__area">
+
+        <section class="logo__area">
+            <div class="logo__wrapper text-center">
+                <img src="./images/logo-new.gif" alt="Mortgage Quest">
+                <p></p>
+            </div>
+        </section>
+
+        <header class="header__area">
+            <nav class="navbar navbar-expand">
+
+                <div class="menu__wrapper">
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/home.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/about.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/calc.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/contact.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/apply.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/testamonials.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/reverse_mortgages.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">
+                                    <img src="./images/commercial.gif" class="img-fluid" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <section class="page__content">
+            <div class="row">
+                <div class="col-12">
+                    <div class="general__info-wrapper">
+                        <h1>Apply Now</h1>
+                        <div class="instruction__content">
+                            <p>Instructions</p>
+                            <ol>
+                                <li>Use this form to request mortgage information. </li>
+                                <li>Please fill out as much of this form as possible. </li>
+                                <li>When finished click on the send button. </li>
+                            </ol>
+                            <p>Robert McCormick will contact you. A phone number is required.</p>
+                        </div>
+
+                        <div class="form__wrapper">
+                            <form action="" class="form">
+                                <div class="col-12 how_found_site">
+                                    <label for="how_found_site" class="form-label">How did you find this web site?</label>
+                                    <input type="text" class="form-control" id="how_found_site" name="how_found_site" size="50">
+                                </div>
+                                <h2>General Information</h2>
+                                <div class="row form__title">
+                                    <div class="col-2 ">
+                                    
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Borrower</h6>
+                                    </div>
+                                    <div class="col-5">
+                                        <h6>Co-borrower</h6>
+                                        <p>(If different)</p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Full Name:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="name" id="name" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="coborrower_name" id="coborrower_name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Address:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="home_address" id="home_address" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cohome_address" id="cohome_address" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">City, State, Zip:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="row address__wrapper">
+                                            <div class="col-8">
+                                                <input type="text" name="customer_city" id="customer_city" class="form-control">
+                                            </div>
+                                            <div class="col-4">
+                                                <input type="text" name="customer_state" id="customer_state" class="form-control">
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="text" name="customer_zip" id="customer_zips" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="row address__wrapper">
+                                            <div class="col-8">
+                                                <input type="text" name="customer_city" id="cocustomer_city" class="form-control">
+                                            </div>
+                                            <div class="col-4">
+                                                <input type="text" name="customer_state" id="cocustomer_state" class="form-control">
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="text" name="customer_zip" id="cocustomer_zip" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Home Phone:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="home_phone" id="home_phone" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="co_home_phone" id="co_home_phone" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Best time to contact:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="best_time_to_contact" id="best_time_to_contact" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cobest_time_to_contact" id="cobest_time_to_contact" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">E-mail:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="email" name="email" id="email" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="email" name="co_email" id="co_email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Social Security #:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="social_sec_no" id="social_sec_no" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cosocial_sec_no" id="cosocial_sec_no" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Employers:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="company" id="company" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cocompany" id="cocompany" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Employers' Phone Number:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="company_phone" id="company_phone" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cocompany_phone" id="cocompany_phone" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Are you self employed ?</p>
+                                    </div>
+                                    <div class="col-5 d-flex align-items-center">
+                                        <div class="form-check me-2">
+                                            <input class="form-check-input" type="radio" name="self_employed" id="self_employed" value="yes">
+                                            <label class="form-check-label" for="self_employed">
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="self_employed" id="self_employed" value="no">
+                                            <label class="form-check-label" for="self_employed">
+                                                no
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-5 d-flex align-items-center">
+                                        <div class="form-check me-2">
+                                            <input class="form-check-input" type="radio" name="coself_employed" id="coself_employed" value="yes">
+                                            <label class="form-check-label" for="coself_employed">
+                                                Yes
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="coself_employed" id="coself_employed" value="no">
+                                            <label class="form-check-label" for="coself_employed">
+                                                no
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Length of Employment:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="years_on_job" id="years_on_job" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="coyears_on_job" id="coyears_on_job" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Gross Monthly Income:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="gross_onthly_income" id="gross_onthly_income" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="cogross_monthly_income" id="cogross_monthly_income" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <p class="text-end">Date of Birth:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="age" id="age" class="form-control">
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="coage" id="coage" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <p class="text-end">My credit history is:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="credit_history" id="credit_history" value="excellent">
+                                            <label class="form-check-label" for="credit_history">
+                                                excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="credit_history" id="credit_history" value="good, but some lates">
+                                            <label class="form-check-label" for="credit_history">
+                                                good, but some lates
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="credit_history" id="credit_history" value="some credit problems">
+                                            <label class="form-check-label" for="credit_history">
+                                                some credit problems
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="credit_history" id="credit_history" value="major credit problems">
+                                            <label class="form-check-label" for="credit_history">
+                                                major credit problems
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="credit_history" id="credit_history" value=" don't know">
+                                            <label class="form-check-label" for="credit_history">
+                                                don't know	
+                                            </label>
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-5">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="cocredit_history" id="cocredit_history" value="excellent">
+                                            <label class="form-check-label" for="cocredit_history">
+                                                excellent
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="cocredit_history" id="cocredit_history" value="good, but some lates">
+                                            <label class="form-check-label" for="cocredit_history">
+                                                good, but some lates
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="cocredit_history" id="cocredit_history" value="some credit problems">
+                                            <label class="form-check-label" for="cocredit_history">
+                                                some credit problems
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="cocredit_history" id="cocredit_history" value="major credit problems">
+                                            <label class="form-check-label" for="cocredit_history">
+                                                major credit problems
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="cocredit_history" id="cocredit_history" value="don't know">
+                                            <label class="form-check-label" for="cocredit_history">
+                                                don't know	
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="divider"></p>
+                                <h2>Loan Request</h2>
+                                <div class="row align-items-center loan__request">
+                                    <div class="col-3">
+                                        <p class="text-end">Amount Requested:</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" name="amount_requested" id="amount_requested" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center loan__request">
+                                    <div class="col-3">
+                                        <p class="text-end">Type of loan:</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <select name="loan_type" class="form-select">
+                                            <option value="purchase" selected="">Purchase</option>
+                                            <option value="refinance">Refinance</option>
+                                            <option value="refinance_cash_out">Cash out refinance</option>
+                                            <option value="credit_line">Credit line</option>
+                                            <option value="equity_loan">Equity loan</option>
+                                            <option value="construction">Construction</option>
+                                            <option value="construction_permanent">Construction-Permanent</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <p class="divider"></p>
+                                <h2>Property Information</h2>
+                                <p class="mb-2">*This information needs to be filled out for the property that is collateral for the loan</p>                           
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Street Address:</p>
+                                    </div>
+                                    <div class="col-5">
+                                        <input type="text" name="street_address" id="street_address" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">City, State, Zip Code:</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" name="cust_city_st_zip" id="cust_city_st_zip" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Estimated Present Value:</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="text" name="property_value" id="property_value" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Year Purchased:</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="text" name="year_purchased" id="year_purchased" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Original Price:</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="text" name="original_price" id="original_price" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Type of Property:</p>
+                                    </div>
+                                    <div class="col-8 d-flex align-items-center">
+                                        <div class="form-check me-2">
+                                            <input class="form-check-input" type="radio" name="property_type" id="property_type" value="primary">
+                                            <label class="form-check-label" for="self_employed">
+                                                Primary
+                                            </label>
+                                        </div>
+                                        <div class="form-check me-2">
+                                            <input class="form-check-input" type="radio" name="property_type" id="property_type" value="second_or_vacation">
+                                            <label class="form-check-label" for="self_employed">
+                                                Second/Vacation
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="property_type" id="property_type" value="investment">
+                                            <label class="form-check-label" for="self_employed">
+                                                Investment
+                                            </label>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row align-items-center property__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Purchase Amount:</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <input type="text" name="purchase_amount" id="purchase_amount" class="form-control">
+                                    </div>
+                                </div>
+                                <p class="divider"></p>
+                                <h2>Loan Information</h2>
+                                <div class="row align-items-center loan__info">
+                                    <div class="col-4">
+                                        <p class="text-end fw-bold">Mortgage Balances:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="text-end">Amount:</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <p class="text-end">Held by:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="text-end">Payment:</p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center loan__info">
+                                    <div class="col-4">
+                                        <p class="text-end">First:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="1st_mortg_bal" id="1st_mortg_bal" class="form-control">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="text" name="1st_mortg_holder" id="1st_mortg_holder" class="form-control">
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="1st_mortg_paymt" id="1st_mortg_paymt" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center loan__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Second:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="2nd_mortg_bal" id="2nd_mortg_bal" class="form-control">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="text" name="2nd_mortg_holder" id="2nd_mortg_holder" class="form-control">
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="2nd_mortg_paymt" id="2nd_mortg_paymt" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row align-items-center loan__info">
+                                    <div class="col-4">
+                                        <p class="text-end">Other:</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="other_mortgage_bal" id="other_mortgage_bal" class="form-control">
+                                    </div>
+                                    <div class="col-4">
+                                        <input type="text" name="other_mortgage_holder" id="other_mortgage_holder" class="form-control">
+                                    </div>
+                                    <div class="col-2">
+                                        <input type="text" name="other_mortgage_paymt" id="other_mortgage_paymt" class="form-control">
+                                    </div>
+                                </div>
+                                <p class="fw-bold my-3">Creators</p>
+                                <div class="row align-items-center creators">
+                                    <div class="col-3">
+                                        <p>Name</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>Amount Owed</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p>Monthly Payment</p>
+                                    </div>
+                                    <div class="col-3">
+                                        <p class="text-end">Will be paid off?</p>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center creators">
+                                    <div class="col-3">
+                                        <input type="text" name="creditor1" id="creditor1" class="form-control">
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="amount_owed1" id="amount_owed1" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="monthly_paymt1" id="monthly_paymt1" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff1" id="payoff1" value="yes">
+                                                <label class="form-check-label" for="payoff1">
+                                                    Yes
+                                                </label>
+                                            </div>
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff1" id="payoff1" value="no">
+                                                <label class="form-check-label" for="payoff1">
+                                                    No
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center creators">
+                                    <div class="col-3">
+                                        <input type="text" name="creditor2" id="creditor1" class="form-control">
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="amount_owed2" id="amount_owed2" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="monthly_paymt2" id="monthly_paymt2" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff2" id="payoff2" value="yes">
+                                                <label class="form-check-label" for="payoff2">
+                                                    Yes
+                                                </label>
+                                            </div>
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff2" id="payoff2" value="no">
+                                                <label class="form-check-label" for="payoff2">
+                                                    No
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center creators">
+                                    <div class="col-3">
+                                        <input type="text" name="creditor3" id="creditor1" class="form-control">
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="amount_owed3" id="amount_owed3" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="monthly_paymt3" id="monthly_paymt3" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff3" id="payoff3" value="yes">
+                                                <label class="form-check-label" for="payoff2">
+                                                    Yes
+                                                </label>
+                                            </div>
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff3" id="payoff3" value="no">
+                                                <label class="form-check-label" for="payoff3">
+                                                    No
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center creators">
+                                    <div class="col-3">
+                                        <input type="text" name="creditor4" id="creditor1" class="form-control">
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="amount_owed4" id="amount_owed4" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex">
+                                            <p class="me-1">$</p>
+                                            <input type="text" name="monthly_paymt4" id="monthly_paymt4" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff4" id="payoff4" value="yes">
+                                                <label class="form-check-label" for="payoff4">
+                                                    Yes
+                                                </label>
+                                            </div>
+                                            <div class="form-check me-2">
+                                                <input class="form-check-input" type="radio" name="payoff4" id="payoff4" value="no">
+                                                <label class="form-check-label" for="payoff4">
+                                                    No
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="fw-bold my-3">Other monthly debts and information - please describe</p>
+                                <textarea class="form-control other__info-textarea" name="other_info" rows="5" cols="50" spellcheck="false"></textarea>
+                                <p class="my-3">By submitting this on-line application, I/we authorize Mortgage Quest a dba of McCormick Lending Group, Inc. to check such things as my/our credit, business and employment status and histories.</p>
+                                <div class="row align-items-center spam__checker">
+                                    <div class="col-2">
+                                        <input type="text" name="secret" id="secret" class="form-control">
+                                    </div>
+                                    <div class="col-8">
+                                        <p><-What is 5+4? (Spam check)</p>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Submit Application" class="btn submit__btn">
+                                <p class="divider"></p>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer__area">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer__content-wrapper text-center">
+                        <p class="small__text">Copyright © 2016. All rights reserved.McCormick Lending Group, Inc. Fax: (888) 570-6740</p>
+                        <p>AZMB#0903631 / CFL #603J043 / CO ID #20161226406 / NMLS #175743</p>
+                        <p> Toll Free: (800) 328-0144 Fax: (888) 570-6740</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/fb.gif" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/twitter.gif" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/linkedin.png" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/blog.gif" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/equalopportunity.jpg" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <img src="./images/bbb.gif" alt="Mortgage Quest">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+
+    <!--Script Files-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
