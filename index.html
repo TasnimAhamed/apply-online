@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <title>Mortgage Quest</title>
@@ -31,57 +31,50 @@
         </section>
 
         <header class="header__area">
-            <nav class="navbar navbar-expand">
+            <nav class="navbar navbar-expand-md menu__wrapper">
 
-                <div class="menu__wrapper">
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/home.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/about.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/calc.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/contact.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/apply.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/testamonials.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/reverse_mortgages.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">
-                                    <img src="./images/commercial.gif" class="img-fluid" alt="Mortgage Quest">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mortgageNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mortgageNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Calculator
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Apply Online
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Testimonials
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Reverse Mortgages
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                Commercial
+                            </a>
+                        </li>
+                    </ul>
                 </div>
 
             </nav>
@@ -483,27 +476,27 @@
                                 <p class="divider"></p>
                                 <h2>Loan Information</h2>
                                 <div class="row align-items-center loan__info">
-                                    <div class="col-4">
-                                        <p class="text-end fw-bold">Mortgage Balances:</p>
+                                    <div class="col-3">
+                                        <p class="fw-bold">Mortgage Balances:</p>
                                     </div>
                                     <div class="col-2">
-                                        <p class="text-end">Amount:</p>
+                                        <p>Amount:</p>
                                     </div>
-                                    <div class="col-4">
-                                        <p class="text-end">Held by:</p>
+                                    <div class="col-5">
+                                        <p>Held by:</p>
                                     </div>
                                     <div class="col-2">
-                                        <p class="text-end">Payment:</p>
+                                        <p>Payment:</p>
                                     </div>
                                 </div>
                                 <div class="row align-items-center loan__info">
-                                    <div class="col-4">
-                                        <p class="text-end">First:</p>
+                                    <div class="col-3">
+                                        <p>First:</p>
                                     </div>
                                     <div class="col-2">
                                         <input type="text" name="1st_mortg_bal" id="1st_mortg_bal" class="form-control">
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-5">
                                         <input type="text" name="1st_mortg_holder" id="1st_mortg_holder" class="form-control">
                                     </div>
                                     <div class="col-2">
@@ -511,13 +504,13 @@
                                     </div>
                                 </div>
                                 <div class="row align-items-center loan__info">
-                                    <div class="col-4">
-                                        <p class="text-end">Second:</p>
+                                    <div class="col-3">
+                                        <p>Second:</p>
                                     </div>
                                     <div class="col-2">
                                         <input type="text" name="2nd_mortg_bal" id="2nd_mortg_bal" class="form-control">
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-5">
                                         <input type="text" name="2nd_mortg_holder" id="2nd_mortg_holder" class="form-control">
                                     </div>
                                     <div class="col-2">
@@ -525,13 +518,13 @@
                                     </div>
                                 </div>
                                 <div class="row align-items-center loan__info">
-                                    <div class="col-4">
-                                        <p class="text-end">Other:</p>
+                                    <div class="col-3">
+                                        <p>Other:</p>
                                     </div>
                                     <div class="col-2">
                                         <input type="text" name="other_mortgage_bal" id="other_mortgage_bal" class="form-control">
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-5">
                                         <input type="text" name="other_mortgage_holder" id="other_mortgage_holder" class="form-control">
                                     </div>
                                     <div class="col-2">
@@ -571,13 +564,13 @@
                                     </div>
                                     <div class="col-3">
                                         <div class="d-flex justify-content-end">
-                                            <div class="form-check me-2">
+                                            <div class="form-check me-4">
                                                 <input class="form-check-input" type="radio" name="payoff1" id="payoff1" value="yes">
                                                 <label class="form-check-label" for="payoff1">
                                                     Yes
                                                 </label>
                                             </div>
-                                            <div class="form-check me-2">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="payoff1" id="payoff1" value="no">
                                                 <label class="form-check-label" for="payoff1">
                                                     No
@@ -604,13 +597,13 @@
                                     </div>
                                     <div class="col-3">
                                         <div class="d-flex justify-content-end">
-                                            <div class="form-check me-2">
+                                            <div class="form-check me-4">
                                                 <input class="form-check-input" type="radio" name="payoff2" id="payoff2" value="yes">
                                                 <label class="form-check-label" for="payoff2">
                                                     Yes
                                                 </label>
                                             </div>
-                                            <div class="form-check me-2">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="payoff2" id="payoff2" value="no">
                                                 <label class="form-check-label" for="payoff2">
                                                     No
@@ -637,13 +630,13 @@
                                     </div>
                                     <div class="col-3">
                                         <div class="d-flex justify-content-end">
-                                            <div class="form-check me-2">
+                                            <div class="form-check me-4">
                                                 <input class="form-check-input" type="radio" name="payoff3" id="payoff3" value="yes">
                                                 <label class="form-check-label" for="payoff2">
                                                     Yes
                                                 </label>
                                             </div>
-                                            <div class="form-check me-2">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="payoff3" id="payoff3" value="no">
                                                 <label class="form-check-label" for="payoff3">
                                                     No
@@ -670,13 +663,13 @@
                                     </div>
                                     <div class="col-3">
                                         <div class="d-flex justify-content-end">
-                                            <div class="form-check me-2">
+                                            <div class="form-check me-4">
                                                 <input class="form-check-input" type="radio" name="payoff4" id="payoff4" value="yes">
                                                 <label class="form-check-label" for="payoff4">
                                                     Yes
                                                 </label>
                                             </div>
-                                            <div class="form-check me-2">
+                                            <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="payoff4" id="payoff4" value="no">
                                                 <label class="form-check-label" for="payoff4">
                                                     No

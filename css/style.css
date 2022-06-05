@@ -44,6 +44,7 @@ p{
 }
 .logo__wrapper img{
     margin-bottom: -12px;
+    width: 100%;
 }
 
 .logo__wrapper p{
@@ -54,9 +55,32 @@ p{
     margin-top: 2px;
     margin-bottom: 2px;
 }
+.navbar-expand-md{
+    justify-content:center;
+}
+.navbar-toggler{
+    margin-left: 12px;
+    border: 1px solid #00003366;
+}
+.navbar-toggler:focus{
+    box-shadow:0 0 0 .05rem var(--blue);
+}
+.navbar-toggler-icon{
+    background-image: url("../images/hamburger.svg")
+}
+.menu__wrapper {
+    padding: 8px 0;
+}
 
-.menu__wrapper ul li a img{
-    height:53px;
+.menu__wrapper ul li a{
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu__wrapper ul li:hover a,
+.menu__wrapper ul li:focus a,
+.menu__wrapper ul li a:focus{
+    color: var(--blue);
 }
 .page__content{
     padding:6px 12px;
@@ -131,7 +155,7 @@ p{
     padding-right: 2px;
 }
 
-.loan__info .col-4,
+.loan__info .col-5,
 .loan__info .col-2:not(:last-child){
     padding-left: 6px;
     padding-right: 2px;
@@ -140,7 +164,10 @@ p{
     padding-left: 6px;
     padding-right: 12px;
 }
-
+.loan__info .col-3{
+    padding-left: 12px!important;
+    padding-right: 2px!important;
+}
 
 .creators .col-3:first-child{
     padding-left: 12px;
@@ -180,3 +207,25 @@ p{
 }
 
 /* Main Area End */
+
+@media (min-width: 320px) and (max-width:767px){
+    body{
+        zoom: 50%;
+        touch-action: pinch-zoom;
+    }
+    .main__area{
+        width: 100%;
+    }
+    .logo__wrapper p{
+        width:100%;
+    }
+    .divider{
+        width: 100%;
+    }
+    .navbar-expand-md{
+        justify-content:flex-start;
+    }
+    .navbar-collapse{
+        padding-left: 12px;
+    }
+}
