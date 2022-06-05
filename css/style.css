@@ -230,4 +230,7 @@ p{
     .instruction__content ol li{
         font-size:13px;
     }
+    .instruction__content p:last-child{
+        font-size:14px;
+    }
 }
