@@ -227,4 +227,7 @@ p{
     .navbar-collapse{
         padding-left: 12px;
     }
+    .instruction__content ol li{
+        font-size:13px;
+    }
 }
