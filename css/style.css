@@ -211,7 +211,6 @@ p{
 @media (min-width: 320px) and (max-width:767px){
     body{
         zoom: 50%;
-        touch-action: pinch-zoom;
     }
     .main__area{
         width: 100%;
